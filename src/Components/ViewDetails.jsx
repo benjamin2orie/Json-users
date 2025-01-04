@@ -31,7 +31,7 @@ const ViewDetails = () => {
         className="text-center px-[2em] leading-[30px] pt-[3em] lg:capitalize bg-[#FFFFFF] lg:text-[20px] lg:leading-[40px]
       text-[#000]"
       >
-        <h2>user details</h2>
+        <h2 className="capitalize text-[30px] pb-[0.5em]">user details</h2>
         <p>id: {userDetails.id}</p>
         <p> name: {userDetails.name}</p>
         <p>username: {userDetails.username}</p>
