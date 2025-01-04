@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import Header from "./Header";
 
-const HomePage = () => {
+const UserList = () => {
   const [users, setUsers] = useState([]);
   const [viewAll, setViewAll] = useState(false);
   useEffect(() => {
@@ -64,4 +64,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default UserList;
